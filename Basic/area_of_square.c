@@ -5,6 +5,4 @@ int main(){
     area=a*a;
     printf("%d %d",parameter,area);
     return 0;
-
-
 }

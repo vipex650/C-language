@@ -1,1 +1,0 @@
-CreateNode(10);

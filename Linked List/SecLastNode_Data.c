@@ -29,7 +29,7 @@ void CreateNode(int x){
 void traverse(){
     struct Node *temp;
     temp=START;
-    if(temp==NULL && temp->next==NULL) return;
+    if(temp==NULL || temp->next==NULL) return;
     while(temp->next->next!=NULL){
         temp=temp->next;
     }
@@ -41,7 +41,7 @@ int main(){
     CreateNode(10);
     CreateNode(20);
     CreateNode(30);
-    CreateNode(40);
+    CreateNode(100);
     CreateNode(50);
     
     traverse();

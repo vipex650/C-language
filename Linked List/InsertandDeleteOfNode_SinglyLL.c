@@ -108,6 +108,7 @@ void delete_at_end()
     }
     temp->next=NULL;
     free(LAST);
+    LAST=temp;
     display();
 }
 

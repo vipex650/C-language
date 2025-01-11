@@ -3,7 +3,6 @@ int main(){
     int n;
     printf("Enter a Number");
     scanf("%d",&n);
-
     int i=0,digit;
     int arr[1000];
     while(n!=0){

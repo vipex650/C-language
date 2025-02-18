@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n=12345,sum=0,a=0;
+    int n=54321,sum=0,a=0;
     while(n!=0)
     {
         a=n%10;
